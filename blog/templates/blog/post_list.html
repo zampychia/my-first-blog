@@ -1,20 +1,13 @@
-<html>
+{% extends 'blog/base.html' %}
 
-<head>
-  <title>cHiaRa</title>
-</head>
+{% block content %}
 
 <body>
 
   <div>
-    <h1>cHiaRa</h1>
-    <h3>...è la nascita di un nuovo zampy?</h3>
-    <h5><em>(e sarebbe l'ora!!)</em></h5>
-  </div>
-
-  <div>
     <p>Hi there!</p>
     <p>It works :)</p>
+  </br>
     <p>per vedere altre cose navigate pure su:
       <ul>
         <li><a href="http://www.zampychia.it">zampychia.it</a></li>
@@ -30,15 +23,22 @@
   </div>
 </br>
 
-{% for post in posts %}
-<div>
-  <p>published: {{ post.published_date }}</p>
-  <h3><a href="">{{ post.title }}</a></h3>
-  <p>{{ post.text|linebreaks }}</p>
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+            {% for post in posts %}
+                <div class="post">
+                    <div class="date">
+                        {{ post.published_date }}
+                    </div>
+                    <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+                    <p>{{ post.text|linebreaks }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
-{% endfor %}
-
 
 </body>
 
-</html>
+{% endblock content %}
