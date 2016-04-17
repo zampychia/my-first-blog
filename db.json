@@ -1,0 +1,487 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "model": "logentry",
+    "app_label": "admin"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "model": "permission",
+    "app_label": "auth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "model": "group",
+    "app_label": "auth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "model": "user",
+    "app_label": "auth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "model": "contenttype",
+    "app_label": "contenttypes"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "model": "session",
+    "app_label": "sessions"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "model": "post",
+    "app_label": "blog"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wfoxajyhntmnrs3epcfpx9z8fzd7x5d3",
+  "fields": {
+    "session_data": "Y2NjNWRhOWFhNWMyNjViMzg3MTY5YTgxMDczMWJjMWZkMDQ1NTRiYzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiYWQzM2JkMGNmYThhYzVmNzQ4NWFmYzZiMzUzY2Y1MzBiZjIyYWQxZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-05-01T07:21:44.589Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "codename": "add_logentry",
+    "content_type": 1,
+    "name": "Can add log entry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "codename": "change_logentry",
+    "content_type": 1,
+    "name": "Can change log entry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "codename": "delete_logentry",
+    "content_type": 1,
+    "name": "Can delete log entry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "codename": "add_permission",
+    "content_type": 2,
+    "name": "Can add permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "codename": "change_permission",
+    "content_type": 2,
+    "name": "Can change permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "codename": "delete_permission",
+    "content_type": 2,
+    "name": "Can delete permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "codename": "add_group",
+    "content_type": 3,
+    "name": "Can add group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "codename": "change_group",
+    "content_type": 3,
+    "name": "Can change group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "codename": "delete_group",
+    "content_type": 3,
+    "name": "Can delete group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "codename": "add_user",
+    "content_type": 4,
+    "name": "Can add user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "codename": "change_user",
+    "content_type": 4,
+    "name": "Can change user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "codename": "delete_user",
+    "content_type": 4,
+    "name": "Can delete user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "codename": "add_contenttype",
+    "content_type": 5,
+    "name": "Can add content type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "codename": "change_contenttype",
+    "content_type": 5,
+    "name": "Can change content type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "codename": "delete_contenttype",
+    "content_type": 5,
+    "name": "Can delete content type"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "codename": "add_session",
+    "content_type": 6,
+    "name": "Can add session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "codename": "change_session",
+    "content_type": 6,
+    "name": "Can change session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "codename": "delete_session",
+    "content_type": 6,
+    "name": "Can delete session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "codename": "add_post",
+    "content_type": 7,
+    "name": "Can add post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "codename": "change_post",
+    "content_type": 7,
+    "name": "Can change post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "codename": "delete_post",
+    "content_type": 7,
+    "name": "Can delete post"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "groups": [],
+    "user_permissions": [],
+    "email": "zampychia@gmail.com",
+    "password": "pbkdf2_sha256$20000$MdGaf1Au7xuc$PyqAC8MHP/UZUj8KEbP2b0EZ+5LhDu6Wab7afo2I/U8=",
+    "date_joined": "2016-04-17T07:21:22.201Z",
+    "first_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "last_name": "",
+    "last_login": "2016-04-17T07:21:44.586Z",
+    "is_superuser": true,
+    "username": "chiara"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "bah",
+    "published_date": "2016-04-17T12:32:25.252Z",
+    "author": 1,
+    "created_date": "2016-04-17T07:23:11Z",
+    "text": "ciao a tutti, questo \u00e8 il primo post di prova!"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "ancora",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-17T07:23:35Z",
+    "text": "e questo invece \u00e8 il secondo"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "wow",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-17T07:23:50Z",
+    "text": "qui si va un po' a occhio..."
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "mezzanotte",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-14T22:00:00Z",
+    "text": "\u00e8 mezzanotte e sono qui a scrivere sul blog"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "pranzo!",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-20T10:00:00Z",
+    "text": "che si mangia oggi per pranzo?"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "chiara's birthday",
+    "published_date": "2016-04-17T12:36:19.166Z",
+    "author": 1,
+    "created_date": "2016-04-28T22:00:00Z",
+    "text": "e oggi \u00e8 il mio compleanno! auguri chiara!"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "da python",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-17T10:56:31.367Z",
+    "text": "ma guarda te che bravura!"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "prova",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-17T11:01:08.097Z",
+    "text": "come mai non funziona?"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "\u00e8 ora di pranzo",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-17T12:26:24.816Z",
+    "text": "\u00e8 arrivata l'ora di fare la pausa"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "\u00e8 ora di pranzo",
+    "published_date": null,
+    "author": 1,
+    "created_date": "2016-04-17T12:26:53.578Z",
+    "text": "\u00e8 arrivata l'ora di fare la pausa"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2016-04-17T07:23:35.606Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "bah",
+    "action_flag": 1,
+    "object_id": "1"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2016-04-17T07:23:50.744Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "ancora",
+    "action_flag": 1,
+    "object_id": "2"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2016-04-17T07:24:05.622Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "wow",
+    "action_flag": 1,
+    "object_id": "3"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2016-04-17T07:24:40.614Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "mezzanotte",
+    "action_flag": 1,
+    "object_id": "4"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2016-04-17T07:25:09.057Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "pranzo!",
+    "action_flag": 1,
+    "object_id": "5"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2016-04-17T07:25:47.964Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "chiara's birthday",
+    "action_flag": 1,
+    "object_id": "6"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2016-04-17T07:25:48.101Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "chiara's birthday",
+    "action_flag": 1,
+    "object_id": "7"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2016-04-17T07:26:05.071Z",
+    "content_type": 7,
+    "change_message": "",
+    "user": 1,
+    "object_repr": "chiara's birthday",
+    "action_flag": 3,
+    "object_id": "6"
+  }
+}
+]
