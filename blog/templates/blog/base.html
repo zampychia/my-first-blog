@@ -12,6 +12,9 @@
 
 <body>
     <div class="page-header">
+        {% if user.is_authenticated %}
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        {% endif %}
         <h1><a href="/">cHiaRa</a></h1>
         <h3>...è la nascita di un nuovo zampy?</h3>
         <h5>(e sarebbe l'ora!!)</h5>
